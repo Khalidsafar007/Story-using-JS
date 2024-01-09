@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Enchanted Realm</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>The Enchanted Realm</h1>
+        <label id='text' for="characterName">Enter your character's name:</label>
+        <input type="text" id="characterName" placeholder="Your Name">
+        <button id="startButton">Start Adventure</button>
+        <div id="story"></div>
+        <div id="choices" class="hidden">
+            <button class="choiceButton" id="choiceBtn1"></button>
+            <button class="choiceButton" id="choiceBtn2"></button>
+        </div>
+        <div id="restart">
+            <button class="choiceButton hidden" id="restartButton">Restart the advententure</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
